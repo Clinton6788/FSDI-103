@@ -48,3 +48,30 @@ let numberTwo = document.getElementById("numberTwo").value;
 document.getElementById("sum").innerHTML=numberOne - numberTwo;
 }
 // Need to add some if statements for operation, but should be fairly simple
+
+
+// PROMPT = Prompt user for info
+let pet = prompt("insert your pet")
+console.log("your pet is " + pet)
+
+let theNumber = prompt("Insert Number");
+console.log(theNumber);
+
+let newNumber = Number(prompt("Insert REAL number"));
+console.log(newNumber);
+
+let addNumberOne = Number(prompt("Addition number 1"))
+let addNumberTwo = Number(prompt("Addition number two"))
+let addSum = addNumberOne + addNumberTwo
+console.log("The sum of " + addNumberOne + " and " + addNumberTwo + " is " + addSum)
+*/
+
+/* Relational Operators:
+== Equal to
+=== Equal and same type
+!== Not equal to
+<, <=, >, >=
+
+
+// ---ASSIGNMENT 2----
+
