@@ -1,3 +1,23 @@
 body{
     font-family: arial;
 }
+.student{
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #dedede;
+}
+.student p{
+    font-size: 12px;
+}
+.student h6{
+    text-align: right;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+#studentList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
